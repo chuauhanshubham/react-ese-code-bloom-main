@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { CheckCircle, Award, Users, Target } from "lucide-react";
-import Header from "@/components/Header";
+
 const About = () => {
 
   const skills = [
@@ -17,8 +17,7 @@ const About = () => {
   ];
 
   return (
-    <div>
-      <Header />
+    
       <div className="min-h-screen bg-background py-20">
 
         <div className="container mx-auto px-6">
@@ -119,7 +118,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    
   );
 };
 
